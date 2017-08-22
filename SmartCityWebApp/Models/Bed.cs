@@ -12,5 +12,7 @@ namespace SmartCityWebApp.Models
         [Required]
         public String Name { get; set; }
 
+        [Timestamp]
+        public byte[] RowVersions { get;  set;}
     }
 }
